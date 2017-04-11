@@ -1,13 +1,18 @@
 .btnRounded {
+	border-color: black;
+	font-size:24px;
 	display: inline-block;
-	line-height: 1;
-	padding: 7px 10px;
-	text-decoration: none;
-	font-weight: bold;
-	color: #fff;
-	background-color: #39c;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	border-radius: 5px;
+	color: black;
+	background-color: white;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+}
+.btnRounded:hover {
+	border-color: white;
+	background-color:black;
+	color:white;
 }
