@@ -25,3 +25,7 @@
 .tbDefault:focus {
 	border: 2px solid #5cb9f2;
 }
+
+div.relative{
+	position: relative;
+}
