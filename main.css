@@ -16,3 +16,12 @@
 	background-color:black;
 	color:white;
 }
+
+.tbDefault {
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+.tbDefault:focus {
+	border: 2px solid #5cb9f2;
+}
